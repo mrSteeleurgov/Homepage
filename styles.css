@@ -14,7 +14,6 @@ body, html {
   align-items: center;
   text-align: center;
   overflow: hidden;
-  transform: translate(0%, 0%);
 
 }
 
@@ -26,6 +25,8 @@ body, html {
   height: 100% !important;
   z-index: -1;
   object-fit: cover;
+  transform: translate(0%, 0%);
+
 }
 
 .portrait {
