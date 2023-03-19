@@ -6,7 +6,7 @@ body, html {
 
 .container {
   max-width: 100%;
-  position: relative;
+  position: fixed;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -14,6 +14,8 @@ body, html {
   align-items: center;
   text-align: center;
   overflow: hidden;
+  transform: translate(0%, 0%);
+
 }
 
 .bg-video {
