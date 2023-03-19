@@ -19,13 +19,13 @@ body, html {
 .bg-video {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 0;
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
   z-index: -1;
-  transform: translate(-50%, -50%);
+  transform: translate(0, -50%);
 }
 
 
