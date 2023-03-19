@@ -40,3 +40,19 @@ h1 {
 h2 {
   margin-top: 0;
 }
+
+.disclaimer {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.disclaimer a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.disclaimer a:hover {
+  color: #cccccc;
+}
