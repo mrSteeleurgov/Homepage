@@ -14,7 +14,6 @@ body, html {
   align-items: center;
   text-align: center;
   overflow: hidden;
-
 }
 
 .bg-video {
@@ -22,11 +21,11 @@ body, html {
   left: 0 !important;
   bottom: 0;
   width: 100% !important;
-  height: 100% !important;
+  height: auto !important;
+  min-height: 100% !important;
   z-index: -1;
   object-fit: cover;
   transform: translate(0%, 0%);
-
 }
 
 .portrait {
@@ -51,8 +50,6 @@ body, html {
 .disclaimer a:hover {
   color: #cccccc;
 }
-
-
 
 h1, h2 {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
