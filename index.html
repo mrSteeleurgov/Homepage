@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>David Steele - Digital Strategy for Progressive Causes</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.2.10/jquery.mb.YTPlayer.min.js"></script>
 </head>
 <body>
   <div class="container">
@@ -12,7 +14,12 @@
     <img src="LinkedIn_Portrait.jpeg" alt="David Steele" class="portrait">
     <h2>Digital Strategy for Progressive Causes</h2>
     <p class="disclaimer">Stock footage provided by Videvo, downloaded from <a href="https://videvo.net" target="_blank">videvo.net</a></p>
-    <iframe class="bg-video" src="https://www.youtube.com/embed/Bd7kbv6CfXM?controls=0&autoplay=1&loop=1&playlist=Bd7kbv6CfXM&mute=1" frameborder="0" allow="autoplay; fullscreen; encrypted-media" allowfullscreen></iframe>
+    <div id="bg-video" class="bg-video" data-property="{videoURL:'Bd7kbv6CfXM', containment:'.container', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:0.8, addRaster:false, quality:'default'}"></div>
   </div>
+  <script>
+    $(document).ready(function(){
+      $("#bg-video").YTPlayer();
+    });
+  </script>
 </body>
 </html>
