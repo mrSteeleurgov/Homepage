@@ -81,3 +81,9 @@ h1, h2 {
 .impact-button:hover {
   background-color: #cccccc;
 }
+
+@media only screen and (max-width: 600px) {
+  .bg-video {
+    ratio: '4/3';
+  }
+}
