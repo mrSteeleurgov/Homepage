@@ -19,7 +19,7 @@ body, html {
 
 .bg-video {
   position: fixed !important;
-  left: 0; !important;
+  left: 0 !important;
   bottom: 0;
   width: 100% !important;
   height: 100% !important;
