@@ -82,8 +82,12 @@ h1, h2 {
   background-color: #cccccc;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .bg-video {
-    ratio: '4/3';
+    min-width: 100vw;
+    min-height: 56.25vw;
+    width: 100%;
+    height: auto;
+    transform: translate(0%, -50%);
   }
 }
